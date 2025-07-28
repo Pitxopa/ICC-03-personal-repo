@@ -1,0 +1,42 @@
+This error message means the permissions of your ‘docker-deployment.pem’ SSH key file are too broad, making it a security risk. Here’s how to fix it:
+
+Understanding the Problem
+
+SSH Keys: They’re used for secure authentication and need to be kept private.
+Permissions 0644: This means the file can be read by the owner (you), read by users in the file’s group, and read by anyone else on the system. This is too open for a private key file.
+
+
+Fixing the Permissions
+
+Locate the file: Find the ‘docker-deployment.pem’ file on your system.
+Use the chmod command: Open a terminal and use the following command, replacing the placeholder with the actual path to your file:
+chmod 400 /path/to/your/key.pem
+
+Explanation:
+
+chmod: Command to change file mode (permissions).
+400: Sets permissions to read-only by the owner.
+
+Explanation of Permission Settings
+
+Numbers in chmod represent an octal system:
+
+First digit: Owner permissions
+Second digit: Group permissions
+Third digit: Permissions for everyone else
+
+Each digit is a combination of:
+
+4: Read permission
+2: Write permission
+1: Execute permission
+Example:
+
+644: Owner can read/write, Group can read, Others can read.
+400: Owner can read, Group nothing, Others nothing.
+
+Retrying Your Task
+
+After fixing the permissions, retry the operation that originally gave you the error. It should now be able to use your SSH key securely.
+
+
