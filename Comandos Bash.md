@@ -44,6 +44,6 @@ cd ~/tools/windows/ - caminho para ir directamente para um directório
 
 echo "hello! " > notes.txt ( > operador de direcionamento "output redirect", imprimir texto no file notes.txt)
 
-rm -r nome do directório - apagar um directório (ex: rm -r new-directory)
+rm -r nome do directório - apagar um directório e o seu conteúdo (ex: rm -r new-directory)
 
  
