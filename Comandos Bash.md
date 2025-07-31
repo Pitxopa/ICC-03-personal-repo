@@ -18,7 +18,6 @@ touch - criar um ficheiro (ex: touch + nome do ficheiro que queremos criar e a s
 
 cat - ver conteúdos de um ficheiro (ex: cat + nome do ficheiro)
 
-> - direcionar directórios
 
 rm (remove) - apagar um ficheiro (ex: rm nome do ficheiro)
 
