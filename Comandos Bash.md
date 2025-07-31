@@ -41,6 +41,10 @@ tail - mostra as últimas linhas (tail + nome do ficheiro)
 
 links - abre os conteúdos de um site no CLI (ex: links google.com)
 
+cd ~/tools/windows/ - caminho para ir directamente para um directório
+
+echo "hello! " > notes.txt ( > operador de direcionamento "output redirect", imprimir texto no file notes.txt)
+
 
 
  
