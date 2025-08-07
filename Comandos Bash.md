@@ -47,3 +47,5 @@ echo "hello! " > notes.txt ( > operador de direcionamento "output redirect", imp
 rm -r nome do directório - apagar um directório e o seu conteúdo (ex: rm -r new-directory)
 
 chmod +x nome do ficheiro - dar permissoões de execução  
+
+ls -a - listar ficheiros escondidos (hidden files) .secret-file.txt
