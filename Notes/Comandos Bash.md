@@ -49,3 +49,7 @@ rm -r nome do directório - apagar um directório e o seu conteúdo (ex: rm -r n
 chmod +x nome do ficheiro - dar permissoões de execução  
 
 ls -a - listar ficheiros escondidos (hidden files) .secret-file.txt
+
+lscpu - ver o CPU
+
+free -m - ver RAM
