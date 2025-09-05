@@ -53,3 +53,10 @@ ls -a - listar ficheiros escondidos (hidden files) .secret-file.txt
 lscpu - ver o CPU
 
 free -m - ver RAM
+
+ls -a - listar hidden files
+
+ls -l - listar em forma de lista e não de caixa
+
+forma octal:
+chmod +x
